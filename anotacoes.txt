@@ -1,0 +1,14 @@
+COMANDOS UTILIZADOS NO TERMINAL
+    node -v : indica a versão do node que está instalada
+    nvm ls : lista as versões do node disponíveis para instalação
+    nvm install lts/hydrogen : instala a versão lts/hydrogen mais recente disponível do node
+    nvm --help : mostra as opções de comandos possiveis de se utilizar no nvm
+    nvm alias default lts/hydrogen : define uma versão default para a versão do node utilizada no projeto
+    npm install next@13.1.6 : instala uma versão especifica do framework next no projeto
+    npm install react@18.2.0 : instala uma versao especifica do framework react no projeto
+    npm install react-dom@18.2.0 : instala uma versao especifica do framework react-dom no projeto
+    npm run dev : roda o projeto de acordo com o nome definido na seguinte estrutura  do arquivo package.json
+    "scripts": {
+    "dev": "next dev"
+    }
+    
